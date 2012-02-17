@@ -5,8 +5,8 @@
  * Colors
  * ============================================================================================ */
 
-// RPMWare Orange: #F35500 http://0to255.com/f35500
-// RPMWare Red:    #C61100 http://0to255.com/c61100
+// RPMWare Orange: #F35500 //0to255.com/f35500
+// RPMWare Red:    #C61100 //0to255.com/c61100
 // Darkest Grey:   #111111
 // Dark Grey:      #1C1C1C
 
@@ -53,7 +53,7 @@ html {
   -webkit-font-smoothing: antialiased; }
 
 body {
-  background: black url(/assets/images/body_bg.png) repeat;
+  background: black url(//d1a9djc5c2hdvf.cloudfront.net/images/body_bg.png) repeat;
   background-attachment: fixed;
   color: #CCCCCC;
   border-top: 5px solid #f35500; }
@@ -228,10 +228,10 @@ body.blog .wrapper {
 
 body.login .wrapper {
   @include rounded-corners(5px);
-  background: url(/assets/images/project_papper.png);
+  background: url(//d1a9djc5c2hdvf.cloudfront.net/images/project_papper.png);
   color: #333333;
   .login-databot {
-    background: url(/assets/images/login/databot-blueprint.png) right 30px no-repeat;
+    background: url(//d1a9djc5c2hdvf.cloudfront.net/images/login/databot-blueprint.png) right 30px no-repeat;
     padding-top: 30px; }
   .alert-message {
     margin-bottom: 0;
@@ -268,7 +268,7 @@ body.blog .wrapper, body.login .wrapper {
       color: #000000; } }
 
 .subscribe-to-feed a {
-  background-image: url(/assets/images/blog/rss.png);
+  background-image: url(//d1a9djc5c2hdvf.cloudfront.net/images/blog/rss.png);
   background-position: 0 50%;
   background-repeat: no-repeat;
   display: block;
@@ -318,7 +318,7 @@ body.blog .wrapper, body.login .wrapper {
   #products_intro p {
     font-size: 16px;
     line-height: 32px;
-    background: url("/assets/images/products/products_arrow.png") bottom right no-repeat; }
+    background: url("//d1a9djc5c2hdvf.cloudfront.net/images/products/products_arrow.png") bottom right no-repeat; }
   p a {
     color: #CCCCCC;
     text-decoration: none; } }
@@ -345,29 +345,29 @@ body.blog .wrapper, body.login .wrapper {
 /* RfM */
 
 #rfm_hero {
-  background: #111111 url("/assets/images/slideshow/hero-insight.png") 0 0 no-repeat;
+  background: #111111 url("//d1a9djc5c2hdvf.cloudfront.net/images/slideshow/hero-insight.png") 0 0 no-repeat;
   height: 420px;
   padding-top: 15px;
   padding-bottom: 15px; }
 
 #rfm-maximize-exposure {
-  background: url("/assets/images/rfm/maximize-exposure.png") 0 0 no-repeat;
+  background: url("//d1a9djc5c2hdvf.cloudfront.net/images/rfm/maximize-exposure.png") 0 0 no-repeat;
   padding-top: 30px;
   padding-bottom: 30px; }
 
 #rfm-exports {
-  background: url("/assets/images/rfm/exports.png") 0 0 no-repeat;
+  background: url("//d1a9djc5c2hdvf.cloudfront.net/images/rfm/exports.png") 0 0 no-repeat;
   height: 366px; }
 
 #rfm-databot-works {
-  background: #111111 url("/assets/images/rfm/databot-works.png") 0 0 no-repeat;
+  background: #111111 url("//d1a9djc5c2hdvf.cloudfront.net/images/rfm/databot-works.png") 0 0 no-repeat;
   margin-bottom: 30px;
   padding: 30px; }
 
 /* RfS */
 
 #all-parts-data {
-  background: url("/assets/images/rfs/all-parts-data.png") bottom right no-repeat;
+  background: url("//d1a9djc5c2hdvf.cloudfront.net/images/rfs/all-parts-data.png") bottom right no-repeat;
   min-height: 375px;
   margin-top: 15px;
   margin-bottom: 15px; }
@@ -376,7 +376,7 @@ body.blog .wrapper, body.login .wrapper {
   margin-top: 15px; }
 
 #rfs-brand-detail {
-  background: url("/assets/images/rfs/brand-detail.png") bottom right no-repeat;
+  background: url("//d1a9djc5c2hdvf.cloudfront.net/images/rfs/brand-detail.png") bottom right no-repeat;
   min-height: 668px;
   margin-top: 15px;
   margin-bottom: 15px; }
@@ -386,10 +386,10 @@ div.slider-nav span {
   height: 44px;
   margin-top: -22px;
   &.right {
-    background: url(/assets/images/orbit/right-arrow.png);
+    background: url(//d1a9djc5c2hdvf.cloudfront.net/images/orbit/right-arrow.png);
     right: -10px; }
   &.left {
-    background: url(/assets/images/orbit/left-arrow.png);
+    background: url(//d1a9djc5c2hdvf.cloudfront.net/images/orbit/left-arrow.png);
     left: -10px; } }
 
 #inline-contact {
@@ -499,7 +499,7 @@ div.slider-nav span {
       font-weight: bold;
       color: #FFFFFF !important; } }
   .arrow {
-    background-image: url("/assets/images/arrow.png");
+    background-image: url("//d1a9djc5c2hdvf.cloudfront.net/images/arrow.png");
     background-position: 0 0;
     width: 33px;
     height: 16px;
@@ -583,7 +583,7 @@ a, a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hov
   height: 60px; }
 
 #header a#logo {
-    background: transparent url("/assets/images/logo.png") 0 30px no-repeat;
+    background: transparent url("//d1a9djc5c2hdvf.cloudfront.net/images/logo.png") 0 30px no-repeat;
     display: block;
     width: 220px;
     height: 60px;
@@ -634,17 +634,17 @@ strong {
 
 .main-menu ul li {
   &.overview a {
-    background-image: url(/assets/images/home.png);
+    background-image: url(//d1a9djc5c2hdvf.cloudfront.net/images/home.png);
     background-position: 10px 50%;
     background-repeat: no-repeat;
     padding-left: 30px; }
   &.faq a {
-    background-image: url(/assets/images/faq.png);
+    background-image: url(//d1a9djc5c2hdvf.cloudfront.net/images/faq.png);
     background-position: 10px 50%;
     background-repeat: no-repeat;
     padding-left: 30px; }
   &.signup a {
-    background-image: url(/assets/images/signup.png);
+    background-image: url(//d1a9djc5c2hdvf.cloudfront.net/images/signup.png);
     background-position: 10px 50%;
     background-repeat: no-repeat;
     padding-left: 30px; } }
@@ -863,13 +863,13 @@ strong {
         display: block;
         text-decoration: none; }
       &.facebook a {
-        background: url(/assets/images/facebook.png) 0 50% no-repeat; }
+        background: url(//d1a9djc5c2hdvf.cloudfront.net/images/facebook.png) 0 50% no-repeat; }
       &.blog a {
-        background: url(/assets/images/rss.png) 0 50% no-repeat; }
+        background: url(//d1a9djc5c2hdvf.cloudfront.net/images/rss.png) 0 50% no-repeat; }
       &.twitter a {
-        background: url(/assets/images/twitter.png) 0 50% no-repeat; }
+        background: url(//d1a9djc5c2hdvf.cloudfront.net/images/twitter.png) 0 50% no-repeat; }
       &.vimeo a {
-        background: url(/assets/images/vimeo.png) 0 50% no-repeat; } } } }
+        background: url(//d1a9djc5c2hdvf.cloudfront.net/images/vimeo.png) 0 50% no-repeat; } } } }
 
 /**** COPYRIGHT***********/
 #copyright {
@@ -1014,7 +1014,7 @@ strong {
       line-height: 18px; } } }
 
 .pdf {
-  background: url(/assets/images/icons/pdf-icon.png) no-repeat 5px 12px;
+  background: url(//d1a9djc5c2hdvf.cloudfront.net/images/icons/pdf-icon.png) no-repeat 5px 12px;
   padding: 15px 10px 10px 65px;
   width: 125px;
   min-height: 48px; }
@@ -1048,7 +1048,7 @@ strong {
 
 .portfolio-item-preview {
   display: block;
-  background: url(/assets/images/bg-fade.png) no-repeat center center; }
+  background: url(//d1a9djc5c2hdvf.cloudfront.net/images/bg-fade.png) no-repeat center center; }
 
 .item-links {
   .align-center {
@@ -1068,7 +1068,7 @@ strong {
   -webkit-border-radius: 2px;
   a {
     &.preview, &.online, &.video {
-      background: url(/assets/images/icon-preview.png) no-repeat 9px 5px;
+      background: url(//d1a9djc5c2hdvf.cloudfront.net/images/icon-preview.png) no-repeat 9px 5px;
       padding-left: 33px;
       font-family: 'Crimson Text', arial, serif;
       font-style: italic;
@@ -1081,9 +1081,9 @@ strong {
       -moz-border-radius: 2px;
       -webkit-border-radius: 2px; }
     &.online {
-      background: url(/assets/images/icon-online.png) no-repeat 9px 9px; }
+      background: url(//d1a9djc5c2hdvf.cloudfront.net/images/icon-online.png) no-repeat 9px 9px; }
     &.video {
-      background: url(/assets/images/icon-video.png) no-repeat 9px 7px; }
+      background: url(//d1a9djc5c2hdvf.cloudfront.net/images/icon-video.png) no-repeat 9px 7px; }
     &.preview:hover, &.online:hover, &.video:hover {
       background-color: #f35500;
       text-decoration: none; } } }
@@ -1095,7 +1095,7 @@ strong {
     top: 0px;
     height: 48px;
     width: 48px;
-    background: url(/assets/images/label-new.png) no-repeat;
+    background: url(//d1a9djc5c2hdvf.cloudfront.net/images/label-new.png) no-repeat;
     z-index: 10; }
   .label-popular {
     position: absolute;
@@ -1103,7 +1103,7 @@ strong {
     top: 0px;
     height: 48px;
     width: 48px;
-    background: url(/assets/images/label-popular.png) no-repeat;
+    background: url(//d1a9djc5c2hdvf.cloudfront.net/images/label-popular.png) no-repeat;
     z-index: 10; }
   .label-free {
     position: absolute;
@@ -1111,7 +1111,7 @@ strong {
     top: 0px;
     height: 48px;
     width: 48px;
-    background: url(/assets/images/label-free.png) no-repeat;
+    background: url(//d1a9djc5c2hdvf.cloudfront.net/images/label-free.png) no-repeat;
     z-index: 10; }
   position: relative;
   float: left;

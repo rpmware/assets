@@ -2,18 +2,18 @@
  * www.ZURB.com/playground
  * Copyright 2010, ZURB
  * Free to use under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- 
- 
- 
+ * //www.opensource.org/licenses/mit-license.php
+
+
+
 /* PUT IN YOUR SLIDER ID AND SIZE TO MAKE LOAD BEAUTIFULLY
    ================================================== */
-#featured { 
-	width: 940px;
-	height: 450px;
-	background: #000 url('/assets/images/orbit/loading.gif') no-repeat center center;
-	overflow: hidden; }
-#featured>img,  
+#featured {
+  width: 940px;
+  height: 450px;
+  background: #000 url('//d1a9djc5c2hdvf.cloudfront.net/images/orbit/loading.gif') no-repeat center center;
+  overflow: hidden; }
+#featured>img,
 #featured>div,
 #featured>a { display: none; }
 
@@ -45,7 +45,7 @@ div.orbit>a {
     position: absolute;
     top: 0;
     left: 0;
-    line-height: 0; 
+    line-height: 0;
     display: none; }
 
 .orbit>div {
@@ -79,7 +79,7 @@ span.rotator {
     position: absolute;
     top: 0;
     left: -20px;
-    background: url(/assets/images/orbit/rotator-black.png) no-repeat;
+    background: url(//d1a9djc5c2hdvf.cloudfront.net/images/orbit/rotator-black.png) no-repeat;
     z-index: 3; }
 
 span.mask {
@@ -98,7 +98,7 @@ span.rotator.move {
 span.mask.move {
     width: 40px;
     left: 0;
-    background: url(/assets/images/orbit/timer-black.png) repeat 0 0; }
+    background: url(//d1a9djc5c2hdvf.cloudfront.net/images/orbit/timer-black.png) repeat 0 0; }
 
 span.pause {
     display: block;
@@ -107,12 +107,12 @@ span.pause {
     position: absolute;
     top: 0;
     left: 0;
-    background: url(/assets/images/orbit/pause-black.png) no-repeat;
+    background: url(//d1a9djc5c2hdvf.cloudfront.net/images/orbit/pause-black.png) no-repeat;
     z-index: 4;
     opacity: 0; }
 
 span.pause.active {
-    background: url(/assets/images/orbit/pause-black.png) no-repeat 0 -40px }
+    background: url(//d1a9djc5c2hdvf.cloudfront.net/images/orbit/pause-black.png) no-repeat 0 -40px }
 
 div.timer:hover span.pause,
 span.pause.active {
@@ -131,8 +131,8 @@ span.pause.active {
     background: rgba(0,0,0,.6);
     z-index: 1000;
     color: #fff;
-	text-align: center;
-	padding: 7px 0;
+  text-align: center;
+  padding: 7px 0;
     font-size: 13px;
     position: absolute;
     right: 0;
@@ -157,11 +157,11 @@ div.slider-nav span {
     cursor: pointer; }
 
 div.slider-nav span.right {
-    background: url(/assets/images/orbit/right-arrow.png);
+    background: url(//d1a9djc5c2hdvf.cloudfront.net/images/orbit/right-arrow.png);
     right: 0; }
 
 div.slider-nav span.left {
-    background: url(/assets/images/orbit/left-arrow.png);
+    background: url(//d1a9djc5c2hdvf.cloudfront.net/images/orbit/left-arrow.png);
     left: 0; }
 
 /* BULLET NAV
@@ -173,7 +173,7 @@ div.slider-nav span.left {
     list-style: none;
     bottom: -40px;
     left: 50%;
-	margin-left: -50px;
+  margin-left: -50px;
     padding: 0; }
 
 .orbit-bullets li {
@@ -182,7 +182,7 @@ div.slider-nav span.left {
     cursor: pointer;
     color: #999;
     text-indent: -9999px;
-    background: url(/assets/images/orbit/bullets.jpg) no-repeat 4px 0;
+    background: url(//d1a9djc5c2hdvf.cloudfront.net/images/orbit/bullets.jpg) no-repeat 4px 0;
     width: 13px;
     height: 12px;
     overflow: hidden; }
@@ -190,7 +190,7 @@ div.slider-nav span.left {
 .orbit-bullets li.active {
     color: #222;
     background-position: -8px 0; }
-    
+
 .orbit-bullets li.has-thumb {
     background: none;
     width: 100px;
