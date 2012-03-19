@@ -1237,7 +1237,6 @@ strong {
     font-weight: bold;
     margin: 5px 0;
     .answered {
-      background: url('{{ "/images/portal/check.png" | portal_image_url: image_asset_host }}') 0 center no-repeat;
       border-right: 1px solid #DDDDDD;
       color: #549b07;
       padding: 0 5px 0 14px;
@@ -1262,7 +1261,6 @@ strong {
   padding: 0 0 20px;
   margin: 20px 0 0;
   strong {
-    background: url('{{ "/images/attachment.png" | portal_image_url: image_asset_host }}') -1px 0 no-repeat;
     display: block;
     margin: 0 0 10px;
     padding: 0 0 0 16px; }
@@ -1453,12 +1451,10 @@ strong {
       -webkit-border-bottom-left-radius: 5px;
       -webkit-border-bottom-right-radius: 5px; } }
   .KbArticle {
-    background: url('{{ "/images/portal/icon-types-small.png" | portal_image_url: image_asset_host }}') 0 4px no-repeat;
     display: block;
     padding: 0 0 0 25px;
     overflow: hidden; }
   .QnaThread {
-    background: url('{{ "/images/portal/icon-types-small.png" | portal_image_url: image_asset_host }}') 0 4px no-repeat;
     display: block;
     padding: 0 0 0 25px;
     overflow: hidden;
