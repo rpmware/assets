@@ -714,11 +714,6 @@ strong {
   -webkit-border-radius: 4px; } }
 
 .main-menu ul li {
-  &:hover {
-    background: #1C1C1C;
-    border-radius: 0 0 4px 4px;
-    -moz-border-radius: 0 0 4px 4px;
-    -webkit-border-radius: 0 0 4px 4px; }
   a {
     display: block;
     text-decoration: none;
@@ -779,6 +774,14 @@ strong {
           margin-right: 0px!important;
           padding: 8px 11px!important;
           font-size: 11px; } } } } }
+.main-menu ul li.secondary a {
+  color: #AAA;
+  text-transform: none; }
+.main-menu ul li.first-secondary {
+  margin-left: 20px;
+  a {
+    border-left: 1px solid #333;
+    padding-left: 25px; } }
 
 .main-menuz ul li ul li a:hover, .main-menu ul ul li a:hover {
   text-decoration: none!important;
