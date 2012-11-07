@@ -13,5 +13,4 @@ Find/replace all old folder with new in Assistly Admin -> Edit Template -> Layou
 Find/replace all old folder with new in RPMWare.Core solution.
 Deploy wordpress site.
 Deploy RPMWare.Core.
-``
-`
+```
